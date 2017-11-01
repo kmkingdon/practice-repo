@@ -1,0 +1,107 @@
+body {
+  background-color: grey;
+}
+
+header {
+  background-color: white;
+  width: 100vw;
+  height: 10vh;
+}
+
+header h1 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2.5rem;
+}
+
+.name {
+  background-color: grey;
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name h2 {
+  color: white;
+  font-size: 1.7rem;
+}
+
+.name button {
+  margin-top: 1rem;
+}
+
+#demo {
+  padding-top: 1rem;
+}
+
+.question {
+  background-color: white;
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.question h3 {
+  font-size: 1.7rem;
+}
+
+.question button {
+  margin-top: 1rem;
+}
+
+#question-print {
+  padding-top: 1rem;
+}
+
+.eight-ball {
+  height: 48vh;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.eight-ball img {
+  width: 23rem;
+  z-index: 0;
+}
+
+.eight-ball button {
+  margin-bottom: 15rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.answer {
+  z-index: 10;
+  background-color: white;
+  float: left;
+  position: absolute;
+  margin-left: 5.2rem;
+}
+
+.answer p {
+  background-color: navy;
+  color: white;
+}
+
+#reset {
+  margin-left: 2rem;
+}
+
+footer {
+  background-color: white;
+  height: 10vh;
+}
+
+footer p {
+  margin-top: 3rem;
+}

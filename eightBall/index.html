@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Magic Eight Ball</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animate.css">
+  </head>
+  <body>
+    <header>
+      <h1>Magic Eight Ball</h1>
+    </header>
+
+    <main>
+      <div class="name">
+        <h2>What is your name?</h2>
+        <button id="nameButton">Click Here</button>
+        <p id="demo"></p>
+      </div>
+
+      <div class="question">
+        <h3>What is your question?</h3>
+        <button id="questionButton">Click Here</button>
+        <p id="question-print"></p>
+      </div>
+      <div id="eight-ball-div" class="eight-ball">
+        <button id="ballButton">Shake the Magic Eight Ball</button>
+        <img id="shake" src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Magic_eight_ball.png" alt="magic eight ball">
+        <div class="answer">
+          <p id="response"></p>
+        </div>
+      </div>
+      <button id="reset">Reset Question</button>
+    </main>
+
+    <footer>
+      <p>Kevin Kingdon Production</p>
+    </footer>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
